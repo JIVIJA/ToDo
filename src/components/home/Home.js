@@ -114,6 +114,7 @@ class Home extends Component {
             style={{flex: 1, marginTop: 10}}
             horizontal
             data={this.props.allTasks}
+            extraData={this.props}
             keyExtractor={item => item.id}
             showsHorizontalScrollIndicator={false}
             ItemSeparatorComponent={this.renderSeparator}

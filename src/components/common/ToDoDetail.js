@@ -1,5 +1,12 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, Image, StyleSheet} from 'react-native';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  Image,
+  StyleSheet,
+  Platform,
+} from 'react-native';
 
 class ToDoDetail extends React.Component {
   render() {
@@ -14,7 +21,10 @@ class ToDoDetail extends React.Component {
         }}>
         <View style={styles.container}>
           <Image
-            style={{tintColor: contentColor}}
+            style={{
+              tintColor: contentColor,
+              marginTop: Platform.OS === 'ios' ? 4 : 8,
+            }}
             source={
               todoData.isCompleted
                 ? require('../../assets/ic_check.png')

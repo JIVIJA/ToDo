@@ -68,6 +68,7 @@ const styles = StyleSheet.create({
     shadowOffset: {width: 12, height: 12},
     shadowColor: '#E8EBF1',
     shadowOpacity: 1.0,
+    elevation: 8,
   },
   header: {
     flexDirection: 'row',
