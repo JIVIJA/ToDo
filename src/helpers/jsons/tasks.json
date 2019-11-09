@@ -1,0 +1,78 @@
+[
+  {
+    "id": 0,
+    "title": "Daily Task",
+    "created": "1573063425",
+    "backgroundColor": "#fff",
+    "contentColor": "#A1A1A1",
+    "addIconColor": "#00A7F7",
+    "todo":[
+      {
+        "id": 0,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": true,
+        "created": "1573063426"
+      },
+      {
+        "id": 1,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": false,
+        "created": "1573063427"
+      },
+      {
+        "id": 2,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": false,
+        "created": "1573063428"
+      },
+      {
+        "id": 3,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": false,
+        "created": "1573063429"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Tense Tuesday",
+    "created": "1573063440",
+    "backgroundColor": "#00A7F7",
+    "contentColor": "#fff",
+    "addIconColor": "#fff",
+    "todo":[
+      {
+        "id": 0,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": true,
+        "created": "1573063441"
+      },
+      {
+        "id": 1,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": false,
+        "created": "1573063442"
+      },
+      {
+        "id": 2,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": false,
+        "created": "1573063443"
+      },
+      {
+        "id": 3,
+        "title": "Pick up laundry",
+        "detail": "Pick up my laundry from Coin's",
+        "isCompleted": false,
+        "created": "1573063444"
+      }
+    ]
+  }
+]
