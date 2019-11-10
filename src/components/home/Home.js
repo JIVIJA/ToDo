@@ -21,6 +21,8 @@ import {
   toggleTodo,
 } from '../../redux/actions/TaskListActions';
 
+import AnalogClock from 'react-native-clock-analog';
+
 class Home extends Component {
   static navigationOptions = {
     title: localization.home,
@@ -90,6 +92,18 @@ class Home extends Component {
         <View style={styles.upperView}>
           <Text style={styles.greeting}> {this.greeting()} </Text>
           <Text style={styles.username}> {'Varun Makhija'} </Text>
+          <View
+            style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
+            <AnalogClock
+              colorClock="#00A7F7"
+              colorNumber="#fff"
+              colorCenter="#00BCD4"
+              colorHour="#F4883F"
+              colorMinutes="#e53935"
+              hour="2"
+              minutes={55}
+            />
+          </View>
         </View>
         <View style={styles.bottomView}>
           <View style={styles.taskListHStack}>
@@ -146,7 +160,9 @@ class Home extends Component {
           <View style={genericStyle.modalContainer}>
             {this.state.addingTask ? (
               <View style={styles.addTaskModalView}>
-                <Text style={genericStyle.modalTitleText}>{'Add Task List'}</Text>
+                <Text style={genericStyle.modalTitleText}>
+                  {'Add Task List'}
+                </Text>
                 <TextInput
                   style={genericStyle.modalTextInput}
                   placeholder={'List Title'}
